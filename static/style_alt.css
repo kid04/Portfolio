@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'contra_regular';
+  src: url('/static/fonts/contra_regular.otf') format('opentype');
+}
+body {
+  color: white;
+  background-color: black;
+  font-family: contra_regular;
+  max-width: 980px;
+  min-width: 536px;
+  margin: 0 auto;
+}
+
+a {
+    color: #39FF14;
+}
+
+a:hover {
+    color: #da14ff;
+}
+
+header, footer, div.page {
+    width: 760px;
+    margin: 0 auto;
+    background: black;
+    padding: 20px 30px;
+    border: 2px solid #2F9A41;
+    border-image: radial-gradient(#2F9A41, #012007);
+    border-image-slice: 1;
+    font-size: 14px;
+
+}
+
+header h1 {
+    color: #14ff65;
+    margin: 0;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
+
+
+
+div.page {
+    background: #black;
+}
+
+.footer {
+    flex-shrink: 0;
+    background-color: #F5F5F5;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+}
