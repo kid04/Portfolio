@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'contra_regular';
-  src: url('../Portfolio/static/fonts/contra_regular.otf') format('opentype');
+  src: url('../../Portfolio/static/fonts/contra_regular.otf') format('opentype');
 }
 body {
   color: white;
